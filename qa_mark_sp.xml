@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___qa-ultra-std-rc.int.bbpd.io_auth-saml_saml_SSO" entityID="https://qa-ultra-std-rc.int.bbpd.io/auth-saml/saml/SSO"><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:Extensions><idpdisco:DiscoveryResponse xmlns:idpdisco="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://qa-ultra-std-rc.int.bbpd.io/auth-saml/saml/login?disco=true"/></md:Extensions><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICrTCCAZWgAwIBAgIBATANBgkqhkiG9w0BAQsFADAaMRgwFgYDVQQDEw9CbGFja2JvYXJkIFNB
+TUwwHhcNMTcxMTI3MjAxMDIyWhcNMjcxMTI3MjAxMDIyWjAaMRgwFgYDVQQDEw9CbGFja2JvYXJk
+IFNBTUwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCXbobSIClFZZSeTfuaSRJuEmd3
+vCpwoyvfe/KIYirzeyCEx6PhAURRZ32N6wDntzESWNgGa+y0H7j7VMJYCRagW78/t8/QgJyuyU3l
+JQBeA+dsCwUK0KgUCAI6CZ+eJS2qT6H28yWX2U00z1/5CYv1iK5aioZTBmywBi+T/V2KpEieknCx
+8TCv/aE1jG4eb1t+itvB1/7RJ9UtVrw3kRj3/6iS+/hzo1BQuPc61aA33dheDWSkhZFdTFbZ6/Bk
+Xk2ZDP6Bq41ZaLQT78PatX7ZAG3P7uMZGzv+U60I1Z4H0jTs6Gc/U4t48Jd/v5lfaP8l1/rVMwjz
+CEGmwnB/5X4FAgMBAAEwDQYJKoZIhvcNAQELBQADggEBADbi1EB/kcON3BkSw8YOZCcn5LMMBwku
+gtVE11hfHdR23zjQmva735N/oKes4qJzbrhKldIj7ONvv6aCFq3ksTyFKQtW6Tcq/ZlrHLpcVQ+W
+iad1Xj7GwWEFgL1YKXy7kFSFCUb25QV+TzJuUtuKat3uuUF0rvLoMNxbFUTPpF+5ig7JMg4t6/rW
+teXcrYSzL6Vs51RV+BtDmxPMBzbXIimBE3LQIDyXzEa0TmUjCogXnftbq06JLN70UxrStU/ZaceC
+rlhsRUUoG5y1/fEgUXZ7jsu18oKjJZHUrmXzToqli/gzkIy4nJ8DRDPgkVXqacBtz3zqg+sClDDg
+XlDYffY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICrTCCAZWgAwIBAgIBATANBgkqhkiG9w0BAQsFADAaMRgwFgYDVQQDEw9CbGFja2JvYXJkIFNB
+TUwwHhcNMTcxMTI3MjAxMDIyWhcNMjcxMTI3MjAxMDIyWjAaMRgwFgYDVQQDEw9CbGFja2JvYXJk
+IFNBTUwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCXbobSIClFZZSeTfuaSRJuEmd3
+vCpwoyvfe/KIYirzeyCEx6PhAURRZ32N6wDntzESWNgGa+y0H7j7VMJYCRagW78/t8/QgJyuyU3l
+JQBeA+dsCwUK0KgUCAI6CZ+eJS2qT6H28yWX2U00z1/5CYv1iK5aioZTBmywBi+T/V2KpEieknCx
+8TCv/aE1jG4eb1t+itvB1/7RJ9UtVrw3kRj3/6iS+/hzo1BQuPc61aA33dheDWSkhZFdTFbZ6/Bk
+Xk2ZDP6Bq41ZaLQT78PatX7ZAG3P7uMZGzv+U60I1Z4H0jTs6Gc/U4t48Jd/v5lfaP8l1/rVMwjz
+CEGmwnB/5X4FAgMBAAEwDQYJKoZIhvcNAQELBQADggEBADbi1EB/kcON3BkSw8YOZCcn5LMMBwku
+gtVE11hfHdR23zjQmva735N/oKes4qJzbrhKldIj7ONvv6aCFq3ksTyFKQtW6Tcq/ZlrHLpcVQ+W
+iad1Xj7GwWEFgL1YKXy7kFSFCUb25QV+TzJuUtuKat3uuUF0rvLoMNxbFUTPpF+5ig7JMg4t6/rW
+teXcrYSzL6Vs51RV+BtDmxPMBzbXIimBE3LQIDyXzEa0TmUjCogXnftbq06JLN70UxrStU/ZaceC
+rlhsRUUoG5y1/fEgUXZ7jsu18oKjJZHUrmXzToqli/gzkIy4nJ8DRDPgkVXqacBtz3zqg+sClDDg
+XlDYffY=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://qa-ultra-std-rc.int.bbpd.io/auth-saml/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://qa-ultra-std-rc.int.bbpd.io/auth-saml/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://qa-ultra-std-rc.int.bbpd.io/auth-saml/saml/SSO" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://qa-ultra-std-rc.int.bbpd.io/auth-saml/saml/SSO" index="1"/></md:SPSSODescriptor></md:EntityDescriptor>
