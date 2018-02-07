@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="https___dev-sl-feature.int.bbpd.io_auth-saml_saml_SSO_alias__102_1" entityID="https://dev-sl-feature.int.bbpd.io/auth-saml/saml/SSO/alias/_102_1"><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:Extensions><idpdisco:DiscoveryResponse xmlns:idpdisco="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://dev-sl-feature.int.bbpd.io/auth-saml/saml/login?disco=true"/></md:Extensions><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICrTCCAZWgAwIBAgIBATANBgkqhkiG9w0BAQsFADAaMRgwFgYDVQQDEw9CbGFja2JvYXJkIFNB
+TUwwHhcNMTgwMjAyMDI1MDAyWhcNMjgwMjAyMDI1MDAyWjAaMRgwFgYDVQQDEw9CbGFja2JvYXJk
+IFNBTUwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCg9xn7h+dMefJ/yWelr+kpVocU
+oPHAcMjQhshx70g+TCzoxugt6azIl2MpQCdRrlJigUD8ojFtoKjNXHdaFRU7/+NrFXzuafspQYz2
+/fJH64sCrNheKLuHYs5AOiI/YjeOXyYyCSUGYjpdTHpUTcFL/8PBuaF81FJpPAWUw4/ygYjON+D6
+ts4RE9wkR6xe/882Bid3Wh9krNJndF5/AnbRFsYUC3GqBd0NQ2SGJhSDeGpqeln7qgKMcJF4n4sN
+cfklP9NAMYWTEUxgT463f9JBtrgdMzDYvq5/exsyELQUEH52oKnP0MgnlW5v8bf+7j4DKAQUIDGC
+C43A9SVW3WjBAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIwx0Rf/rEHnt7wxJvSZzX/VaAa7J6lM
+/2sxBvbqx7kj9n0XU9f915UDJtHNXqIPYIagVT7dom43uUs/j67RmP5+WwivK1OwzMQmXSM42FoQ
+acztYyKO6NCR7eh6J9+tVdRdo0sxMCkS6BIU4JSeqVUR5frzb9F3eRk8imFTMNqNRa+iX5GDUxgH
+j40OPTGN/6uZfhKmpu+y0XzidvFluPuEFJQFhJ4W0rxVdsQlvXaeAEHew1Os4OSPASo9LG/oL/Z/
+e0Yta/NSo+os/eX0IKk6PqXv6aMFUi1JD3+6PUn8qmoURxQHdEAKF8zgHYrgb55IDxeHGYu9T52w
+g8gaANQ=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:KeyDescriptor use="encryption"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICrTCCAZWgAwIBAgIBATANBgkqhkiG9w0BAQsFADAaMRgwFgYDVQQDEw9CbGFja2JvYXJkIFNB
+TUwwHhcNMTgwMjAyMDI1MDAyWhcNMjgwMjAyMDI1MDAyWjAaMRgwFgYDVQQDEw9CbGFja2JvYXJk
+IFNBTUwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCg9xn7h+dMefJ/yWelr+kpVocU
+oPHAcMjQhshx70g+TCzoxugt6azIl2MpQCdRrlJigUD8ojFtoKjNXHdaFRU7/+NrFXzuafspQYz2
+/fJH64sCrNheKLuHYs5AOiI/YjeOXyYyCSUGYjpdTHpUTcFL/8PBuaF81FJpPAWUw4/ygYjON+D6
+ts4RE9wkR6xe/882Bid3Wh9krNJndF5/AnbRFsYUC3GqBd0NQ2SGJhSDeGpqeln7qgKMcJF4n4sN
+cfklP9NAMYWTEUxgT463f9JBtrgdMzDYvq5/exsyELQUEH52oKnP0MgnlW5v8bf+7j4DKAQUIDGC
+C43A9SVW3WjBAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIwx0Rf/rEHnt7wxJvSZzX/VaAa7J6lM
+/2sxBvbqx7kj9n0XU9f915UDJtHNXqIPYIagVT7dom43uUs/j67RmP5+WwivK1OwzMQmXSM42FoQ
+acztYyKO6NCR7eh6J9+tVdRdo0sxMCkS6BIU4JSeqVUR5frzb9F3eRk8imFTMNqNRa+iX5GDUxgH
+j40OPTGN/6uZfhKmpu+y0XzidvFluPuEFJQFhJ4W0rxVdsQlvXaeAEHew1Os4OSPASo9LG/oL/Z/
+e0Yta/NSo+os/eX0IKk6PqXv6aMFUi1JD3+6PUn8qmoURxQHdEAKF8zgHYrgb55IDxeHGYu9T52w
+g8gaANQ=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-sl-feature.int.bbpd.io/auth-saml/saml/SingleLogout"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-sl-feature.int.bbpd.io/auth-saml/saml/SingleLogout"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-sl-feature.int.bbpd.io/auth-saml/saml/SSO" index="0" isDefault="true"/><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://dev-sl-feature.int.bbpd.io/auth-saml/saml/SSO" index="1"/></md:SPSSODescriptor></md:EntityDescriptor>
