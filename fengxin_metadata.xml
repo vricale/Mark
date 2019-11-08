@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" entityID="http://fengxin/lighting/idp">
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+        <Extensions>
+            <shibmd:Scope regexp="false">scope</shibmd:Scope>
+        </Extensions>
+        <KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIC/jCCAeagAwIBAgIVAJ8qCAKh7XOiykmlS7/gkgLDfDZdMA0GCSqGSIb3DQEB
+CwUAMBIxEDAOBgNVBAMMB2Zlbmd4aW4wHhcNMTkxMTA2MDc1ODAwWhcNMzkxMTA2
+MDc1ODAwWjASMRAwDgYDVQQDDAdmZW5neGluMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAsUfvAcru6zBYQVs86fTq2+ZH7x+rBv+hsS7PR5uRM3KMnGrQ
+Dl4521286hgqK6+BtsjBEJ8EGk7H9O0Ys24abQ6BL/NL/Ej2HT4rvD/2LBNEqWKB
+rWgGlxP1rcY+h+dSyahAjGqjXqC9/DO/gtRQ6C6dbfnJL6fyHBULy8eO5LN4/bL6
+DSgI1YrMGnuA2RhMn2Vee+fbSzrCScnHNLKpL6P6BB7gkgwW4VCAN+90GGpn+xVr
+VrwM5JNlQ/FSXlc3LK04AOq1x3QW5S426zNq4srHhETOq3adLTSWOu2XgG6NXGJT
+g3FgQk+cdd99ViBvF2rGZ9rRJM/oHWU63KwwKwIDAQABo0swSTAdBgNVHQ4EFgQU
+km5gRGwusUPJ2NvR2KVoPIhnY9swKAYDVR0RBCEwH4IHZmVuZ3hpboYUZmVuZ3hp
+bi9pZHAvbWV0YWRhdGEwDQYJKoZIhvcNAQELBQADggEBAGD0/TCAL6MjTqT9P3UD
+4xIxUUO34nhoTI6HCeCHZlTibFpYW6+tKmPmwGMwPTWppqPppzlsENkdy4EEPKjx
+jwb89HtM6Oo1PF4kArMW13W56FUHocne0KO1LOosobzWq8S67CKr4zxZl9X1Dg0q
+Iev6vhG/gB36x/j2DqQjcOsQzwYo1Fr6KYa/lQQb5rmYUxqgF2JSEJ2uKRof6VkB
+m2HlrZM9QFQqc+BXTePXo6TMIvfSpPgALm1wePjc9Fa53+6HaoXdLCNAR5PThWCw
+030ORpS/BjTV7e1RNkunt6fwkQN/2k+GtU/wIycM1/DCJEP6a5NFKWkLS/513LXa
+u8A=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIC/jCCAeagAwIBAgIVAIsjYm5W+DmJ0wjMJP8ylscYHMhKMA0GCSqGSIb3DQEB
+CwUAMBIxEDAOBgNVBAMMB2Zlbmd4aW4wHhcNMTkxMTA2MDc1ODAyWhcNMzkxMTA2
+MDc1ODAyWjASMRAwDgYDVQQDDAdmZW5neGluMIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAmYw3pRMoUQXw0Sjo3Xg7V6yGP0H5G7QEyIPlE5SDH+IXHNps
+HHoXWPx0HdTJnWMW+2qETCm2AhYtRLEncos+gRgkxOgMwjSqLeN0u3IQfPBHO5Ho
+yS4gbJnNoHjXb7ioWszP1pAO3nwzBgj6NVv3AxnOu5EBFB+dB4PZAk5LSyO2riH/
+7u/+KYatyS+nJVrQM87oEoJrKhscuc64kvNRu663Ni3ThUq5remO3lKOQi0EcaPk
+DUDCwJxKhF/za04+l299AMmvV06cIQNEcoAn94s+0tWSz4hMZqbj8cAGhCoAwm5c
+bqGJP74Ba0DtWc2F2uCAsFFlHI5smvufDsuj1QIDAQABo0swSTAdBgNVHQ4EFgQU
+hDJ9eUnJ7nGcrYO4yfv1kFvX5owwKAYDVR0RBCEwH4IHZmVuZ3hpboYUZmVuZ3hp
+bi9pZHAvbWV0YWRhdGEwDQYJKoZIhvcNAQELBQADggEBAA3qFkyNHDEqxCKeH8Ae
+Un4lI/JK8w/PJw11uZg5Kzuoseb/DjnGwCyeqVHTew7pQNB8vTUD10y8Sv8YRyGO
+xccEDUIFGG4JOwYYPoc3pLao9wa4KPStM00OtfrEIlwEN24VESjL3uPUed/YnWBM
+Qy9NE9SuAnZ/EK/psr6CyiKMw/tMdtn5ik3hOjwSp7xdZlGDgAkYz5ifZP1AWgYK
+HVNP53W/68dDL8dYbe/NFp2tg9lrugqxFY2TYcElBoeQp3zqdZo4ueiri49Qc6b7
+88k/swd1hpkSNdJHNstSYsGl+d/MIM4m/R/hWkA8PCC+18Uaoq9X4rNIC13zRg45
+Mw8=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </KeyDescriptor>
+
+        <NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</NameIDFormat>
+        <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+
+        <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://fengxin/cic-sso/idp/profile/SAML2/POST/SLO"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://fengxin/cic-sso/idp/profile/SAML2/POST/SSO"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://fengxin/cic-sso/idp/profile/SAML2/Redirect/SSO"/>
+        <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="http://fengxin/cic-sso/idp/profile/SAML2/SOAP/ECP"/>
+    </IDPSSODescriptor>
+</EntityDescriptor>
